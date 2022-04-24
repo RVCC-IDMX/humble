@@ -1,0 +1,4 @@
+/* Make svg small enough not to overtake the page */
+svg {
+  width: 0.75em;
+}
