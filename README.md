@@ -15,8 +15,17 @@ A page with minimal mobile-first styling using a reset/normalize library followe
 9. The nav bar will be simple and remain visible (and not collapse to a hamburger at small widths)
 10. Consider using grid and gap to vertically space out elements instead of margins (this protects against margin collapse)
 11. You may give the body a light colored background and a dark font color, as long as the color contrast > 14. (Something other than stark black on stark white actually improves accessibility for most people.)
-12.  The only media query will be an @media print such that external link urls are printed on the page (but the skip link and internal links are not printed) You will probably have to search for a solution to this.
-13. If you feel the need to cite a resource, add it to this README
+12. Colors and font sizes should be declared using custom properties.
+13.  The only media query will be an @media print following the rules below.
+14. If you feel the need to cite a resource, add it to this README
+
+### @Media Print Rules
+
+1. All text, including links, are black and the background is white.
+2. The external link urls are printed after the text of the link.
+3. The skip link doesn't print.
+4. You will probably have to search for a solution to this. (put a link in the Resources)
+5. [How to Emulate Print Rendering](https://css-tricks.com/can-you-view-print-stylesheets-applied-directly-in-the-browser/)
 
 ---
 
