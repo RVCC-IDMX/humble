@@ -16,8 +16,9 @@ A page with minimal mobile-first styling using a reset/normalize library followe
 10. Consider using grid and gap to vertically space out elements instead of margins (this protects against margin collapse). And consider using flex on the nav ul.
 11. You may give the body a light colored background and a dark font color, as long as the color contrast > 14. (Something other than stark black on stark white actually improves accessibility for most people.)
 12. Colors and font sizes should be declared using custom properties.
-13.  The only media query will be an @media print following the rules below.
-14. If you feel the need to cite a resource, add it to this README
+13. You may style lists.
+14.  The only media query will be an @media print following the rules below.
+15. If you feel the need to cite a resource, add it to this README
 
 ### @Media Print Rules
 
