@@ -13,7 +13,7 @@ A page with minimal mobile-first styling using a reset/normalize library followe
 7. Be sure to include accessibility features that are not necessarily present in the default user agent styles or the reset/normalize styles. For example, line-height by default is too small. If your reset/normalize does not fix this, your local code should.
 8. You may use fluid type and spacing (See below for code).
 9. The nav bar will be simple and remain visible (and not collapse to a hamburger at small widths)
-10. Consider using grid and gap to vertically space out elements instead of margins (this protects against margin collapse)
+10. Consider using grid and gap to vertically space out elements instead of margins (this protects against margin collapse). And consider using flex on the nav ul.
 11. You may give the body a light colored background and a dark font color, as long as the color contrast > 14. (Something other than stark black on stark white actually improves accessibility for most people.)
 12. Colors and font sizes should be declared using custom properties.
 13.  The only media query will be an @media print following the rules below.
